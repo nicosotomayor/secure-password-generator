@@ -13,35 +13,38 @@ Un generador de contraseñas **seguras y aleatorias** hecho en **Python** 🐍.
 ## 📦 Instalación
 ```bash
 git clone https://github.com/nicosotomayor/secure-password-generator.git
+
 cd secure-password-generator/src
 
-## 🖥️ Uso
+💻 Uso
 
-Desde la carpeta `src/`, ejecuta:  
+Desde la carpeta src/, ejecuta:
 
-```bash
 python main.py
-```
 
-### Opciones disponibles
-- `-l` o `--length` → definir la longitud de la contraseña (por defecto 16).  
-- `-u` → incluir mayúsculas.  
-- `-n` → incluir números.  
-- `-s` → incluir símbolos.  
+⚙️ Opciones disponibles
 
-### Ejemplos
+-l o --length → definir la longitud de la contraseña (por defecto 16).
 
-1. Generar contraseña por defecto (16 caracteres):  
-   ```bash
-   python main.py
-   ```
+-u → incluir mayúsculas.
 
-2. Generar contraseña de 24 caracteres con mayúsculas y números:  
-   ```bash
-   python main.py -l 24 -u -n
-   ```
+-n → incluir números.
 
-3. Generar contraseña de 32 caracteres con mayúsculas, números y símbolos:  
-   ```bash
-   python main.py -l 32 -u -n -s
+-s → incluir símbolos.
+
+📋 Ejemplos
+
+Generar contraseña por defecto (16 caracteres):
+
+python main.py
+
+
+Generar contraseña de 24 caracteres con mayúsculas y números:
+
+python main.py -l 24 -u -n
+
+
+Generar contraseña de 32 caracteres con mayúsculas, números y símbolos:
+
+python main.py -l 32 -u -n -s
    ```
